@@ -35,7 +35,7 @@ while (0 == 0):
     Scoots = random.randrange(0, 2)
     Scoots2 = random.randrange(0, 3)
     Codeliner = Formatgram[Scoots] + Sorrylevels[Scoots2]
-  elif ("bored" in Jump or "need to do something" in Jump or "need a new hobby" and not "got a hobby" in Jump):
+  elif ("bored" in Jump or "need to do something" in Jump or "need a new hobby" in Jump):
     Scoots = random.randrange(2, 3)
     Scoots2 = random.randrange(0, 4)
     Codeliner = Youformat2[Scoots] + Hobbies[Scoots2]
@@ -43,7 +43,7 @@ while (0 == 0):
     Scoots = random.randrange(0, 2)
     Scoots2 = random.randrange(0, 4)
     Codeliner = Objectnouns[Scoots] + Opinions[Scoots2]
-  else:
+  elif ("" in Jump or Jump == " " or "  " in Jump):
     Ranie = random.randrange(1, 2)
     if (Ranie == 1):
       Scoots = random.randrange(0, 6)
