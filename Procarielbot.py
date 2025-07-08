@@ -27,7 +27,7 @@ while (0 == 0):
     Scoots2 = random.randrange(0, 3)
     Scooty = random.randrange(0, 4)
     Codeliner = Woo[Scoots] + Woo2[Scoots2] + Finall[Scooty]
-  elif ("ayo" in Jump or "Ayo" in Jump or "Yo" in Jump or "yo" in Jump):
+  elif ("ayo" in Jump or "Ayo" in Jump or "Yo" in Jump or "yo" in Jump and not "you" in Jump and not "You" in Jump):
     Scoots = random.randrange(0, 3)
     Scoots2 = random.randrange(0, 3)
     Codeliner = Woobutswagger[Scoots] + Woo2swagger[Scoots2]
