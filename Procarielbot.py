@@ -50,6 +50,6 @@ while (0 == 0):
       Codeliner = Genericone[Scoots]
     else:
       Scoots = random.randrange(0, 4)
-      Codeliner = Genericone[Scoots]
+      Codeliner = Genericthree[Scoots]
   print(Codeliner + ":")
   Jump = input("You: ")
