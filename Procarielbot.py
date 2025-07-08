@@ -13,6 +13,9 @@ Hobbies = ["read a book", "write a story", "play a game", "sing a song", "dance"
 Opinions = ["cool", "alright", "good", "fine", "ight"]
 Praisestart = ["That's ", "That is ", "Very ", "Wow, ", "Wow, that's"]
 Objectnouns = ["It's", "It is"]
+Genericone = ["Okay", "Ok", "Alright", "Fine", "Meh", "Good", "Not Much"]
+Generictwo = [", you?", ", how about you?", ", u?", ", what about you?"]
+Genericthree = ["I guess", "I see", "I understand", "Sure", "Yeah"]
 
 
 import random
@@ -40,5 +43,13 @@ while (0 == 0):
     Scoots = random.randrange(0, 1)
     Scoots2 = random.randrange(0, 6)
     Codeliner = Objectnouns[Scoots] + Hobbies[Scoots2]
+  else:
+    Ranie = random.randrange(1, 2)
+    if (Ranie = 1):
+      Scoots = random.randrange(0, 6)
+      Codeliner = Genericone[Scoots]
+    else:
+      Scoots = random.randrange(0, 4)
+      Codeliner = Genericone[Scoots]
   print(Codeliner + ":")
   Jump = input("You: ")
