@@ -20,9 +20,6 @@ Opinionthought = ["I have no opinion", "I have no thoughts", "I don't know", "I 
 Askingaboutbot = ["I guess", "Whatever you say", "Yes and no?", "I'm a program", "Beep Boop boop", "Maybe, I guess"]
 Whatanswer = ["Nothing", "Was I being confusing?", "Whoops", "My bad", "Forget it", "Whatever"]
 Whatisname = ["My name is Procariel", "I'm Procariel", "I am Procariel", "My name's Procariel", "I'm just Procariel"]
-      
-
-
 import random
 Jump = input("Input a response to start the bot: ")
 print("You: " + Jump)
