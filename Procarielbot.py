@@ -69,10 +69,10 @@ while (0 == 0):
   elif ("your name" in Jump or "Your name" in Jump):
     Spinner = random.randrange(0, 2)
     if (Spinner == 1):
-      Scoots = random.randrange(0, 4)
+      Scoots = random.randrange(0, 5)
       Codeliner = Whatisname[Scoots]
     else:
-      Scoots = random.randrange(0, 4)
+      Scoots = random.randrange(0, 5)
       Scoots2 = random.randrange(0, 3)
       Codeliner = Whatisname[Scoots] + Generictwo[Scoots2]
       #Here's where the fun starts!
