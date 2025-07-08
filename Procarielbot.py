@@ -15,5 +15,5 @@ while (0 == 0):
     Scoots = random.randrange(0, 3)
     Scoots2 = random.randrange(0, 3)
     Codeliner = Woobutswagger[Scoots] + Woo2swagger[Scoots2]
-  Jump = input(Codeliner)
+  Jump = str(input(Codeliner))
   print("You: ''", Jump, "''")
