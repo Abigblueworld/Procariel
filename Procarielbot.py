@@ -18,7 +18,9 @@ Generictwo = [", you?", ", how about you?", ", u?", ", what about you?"]
 Genericthree = ["I guess", "I see", "I understand", "Sure", "Yeah"]
 Opinionthought = ["I have no opinion", "I have no thoughts", "I don't know", "I can't tell you", "I don't do opinions"]
 Askingaboutbot = ["I guess", "Whatever you say", "Yes and no?", "I'm a program", "Beep Boop boop", "Maybe, I guess"]
-
+Whatanswer = ["Nothing", "Was I being confusing?", "Whoops", "My bad", "Forget it", "Whatever"]
+Whatisname = ["My name is Procariel", "I'm Procariel", "I am Procariel", "My name's Procariel", "I'm just Procariel"]
+      
 
 
 import random
@@ -61,6 +63,20 @@ while (0 == 0):
   elif ("Are you a robot" in Jump or "you a robot" in Jump):
     Scoots = random.randrange(0, 5)
     Codeliner = Askingaboutbot[Scoots]
+  elif ("What" in Jump or "what" in Jump or "Huh" in Jump or "huh" in Jump):
+    Scoots = random.randrange(0, 5)
+    Codeliner = Whatanswer[Scoots]
+  elif ("your name" in Jump or "Your name" in Jump):
+    Spinner = Random.randrange(0, 2)
+    if (Spinner = 1):
+      Scoots = random.randrange(0, 4)
+      Codeliner = Whatisname[Scoots]
+    else:
+      Scoots = random.randrange(0, 4)
+      Scoots = random.randrange(0, 5)
+      Codeliner = Whatisname[Scoots] + Generictwo[Scoots2]
+      #Here's where the fun starts!
+      Names = input(Codeliner)
   elif ("" in Jump or Jump == " " or "  " in Jump):
     Ranie = random.randrange(0, 2)
     if (Ranie == 1):
