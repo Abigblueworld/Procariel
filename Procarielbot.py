@@ -67,8 +67,8 @@ while (0 == 0):
     Scoots = random.randrange(0, 5)
     Codeliner = Whatanswer[Scoots]
   elif ("your name" in Jump or "Your name" in Jump):
-    Spinner = Random.randrange(0, 2)
-    if (Spinner = 1):
+    Spinner = random.randrange(0, 2)
+    if (Spinner == 1):
       Scoots = random.randrange(0, 4)
       Codeliner = Whatisname[Scoots]
     else:
