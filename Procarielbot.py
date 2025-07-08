@@ -45,7 +45,7 @@ while (0 == 0):
     Codeliner = Objectnouns[Scoots] + Hobbies[Scoots2]
   else:
     Ranie = random.randrange(1, 2)
-    if (Ranie = 1):
+    if (Ranie == 1):
       Scoots = random.randrange(0, 6)
       Codeliner = Genericone[Scoots]
     else:
