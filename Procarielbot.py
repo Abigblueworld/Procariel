@@ -16,6 +16,9 @@ Objectnouns = ["It's ", "It is ", "It will be "]
 Genericone = ["Okay", "Ok", "Alright", "Fine", "Meh", "Good", "Not Much"]
 Generictwo = [", you?", ", how about you?", ", u?", ", what about you?"]
 Genericthree = ["I guess", "I see", "I understand", "Sure", "Yeah"]
+Opinionthought = ["I have no opinion", "I have no thoughts", "I don't know", "I can't tell you", "I don't do opinions"]
+Askingaboutbot = ["I guess", "Whatever you say", "Yes and no?", "I'm a program", "Beep Boop boop", "Maybe, I guess"]
+
 
 
 import random
@@ -43,8 +46,23 @@ while (0 == 0):
     Scoots = random.randrange(0, 2)
     Scoots2 = random.randrange(0, 4)
     Codeliner = Objectnouns[Scoots] + Opinions[Scoots2]
+  elif ("Do you" in Jump or "do you" in Jump):
+    Scoots2 = random.randrange(0, 4)
+    Codeliner = Opinionthought[Scoots2]
+  elif ("How are" in Jump or "how are" in Jump):
+    Spinner = random.randrange(0, 2)
+    if (Spinner == 1):
+      Scoots2 = random.randrange(0, 5)
+      Codeliner = Genericone[Scoots2]
+    else:
+      Scoots2 = random.randrange(0, 5)
+      Scoots = random.randrange(0, 3)
+      Codeliner = Genericone[Scoots2] + Generictwo[Scoots]
+  elif ("Are you a robot" in Jump or "you a robot" in Jump):
+    Scoots = random.randrange(0, 5)
+    Codeliner = Askingaboutbot[Scoots]
   elif ("" in Jump or Jump == " " or "  " in Jump):
-    Ranie = random.randrange(1, 2)
+    Ranie = random.randrange(0, 2)
     if (Ranie == 1):
       Scoots = random.randrange(0, 6)
       Codeliner = Genericone[Scoots]
