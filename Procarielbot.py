@@ -22,7 +22,7 @@ import random
 Jump = input("Input a response to start the bot: ")
 print("You: " + Jump)
 while (0 == 0):
-  if ("Hi" in Jump or "hi" in Jump or "hello" in Jump or "Hello" in Jump or "Hey" in Jump or "hey" in Jump):
+  if ("Hi" in Jump or Jump == "hi" or "hello" in Jump or "Hello" in Jump or "Hey" in Jump or "hey" in Jump):
     Scoots = random.randrange(0, 3)
     Scoots2 = random.randrange(0, 3)
     Scooty = random.randrange(0, 4)
