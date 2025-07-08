@@ -73,7 +73,7 @@ while (0 == 0):
       Codeliner = Whatisname[Scoots]
     else:
       Scoots = random.randrange(0, 4)
-      Scoots2 = random.randrange(0, 5)
+      Scoots2 = random.randrange(0, 3)
       Codeliner = Whatisname[Scoots] + Generictwo[Scoots2]
       #Here's where the fun starts!
       Names = input(Codeliner)
