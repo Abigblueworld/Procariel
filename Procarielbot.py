@@ -28,15 +28,15 @@ while (0 == 0):
     Scoots = random.randrange(0, 3)
     Scoots2 = random.randrange(0, 3)
     Codeliner = Woobutswagger[Scoots] + Woo2swagger[Scoots2]
-  elif ("rude" in Jump or "mean" in Jump)
+  elif ("rude" in Jump or "mean" in Jump):
     Scoots = random.randrange(0, 2)
     Scoots2 = random.randrange(0, 3)
     Codeliner = Formatgram[Scoots] + Sorrylevels[Scoots2]
-  elif ("bored" in Jump or "need to do something" in Jump or "need a new hobby", and not "got a hobby" in Jump)
+  elif ("bored" in Jump or "need to do something" in Jump or "need a new hobby", and not "got a hobby" in Jump):
     Scoots = random.randrange(2, 3)
     Scoots2 = random.randrange(0, 6)
     Codeliner = YouFormat[Scoots] + Opinions[Scoots2]
-  elif ("sorry" in Jump or "feel bad for you" in Jump or "feel bad for ya" in Jump)
+  elif ("sorry" in Jump or "feel bad for you" in Jump or "feel bad for ya" in Jump):
     Scoots = random.randrange(0, 1)
     Scoots2 = random.randrange(0, 6)
     Codeliner = Objectnouns[Scoots] + Hobbies[Scoots2]
