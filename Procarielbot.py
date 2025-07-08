@@ -32,7 +32,7 @@ while (0 == 0):
     Scoots = random.randrange(0, 2)
     Scoots2 = random.randrange(0, 3)
     Codeliner = Formatgram[Scoots] + Sorrylevels[Scoots2]
-  elif ("bored" in Jump or "need to do something" in Jump or "need a new hobby", and not "got a hobby" in Jump):
+  elif ("bored" in Jump or "need to do something" in Jump or "need a new hobby" and not "got a hobby" in Jump):
     Scoots = random.randrange(2, 3)
     Scoots2 = random.randrange(0, 6)
     Codeliner = YouFormat[Scoots] + Opinions[Scoots2]
